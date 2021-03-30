@@ -1,0 +1,19 @@
+# .gitattributes for Project.
+
+# ===========================
+# * text=auto
+
+# Source files
+# ===========================
+*.sh        text eol=lf
+defconfig   text eol=lf
+Kconfig     text eol=lf
+
+# Binary files
+# ===========================
+*.exe       binary
+*.bin       binary
+
+# MarkDown
+# ===========================
+*.md        text eol=crlf
